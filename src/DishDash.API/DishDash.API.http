@@ -1,0 +1,6 @@
+@DishDash.API_HostAddress = http://localhost:5012
+
+GET {{DishDash.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
