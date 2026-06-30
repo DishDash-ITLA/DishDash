@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DishDash.Persistence.Configurations
 {
-    internal class Class1
+    public class Class1
     {
     }
 }
