@@ -29,6 +29,10 @@ namespace DishDash.Persistence
             services.AddScoped<IMesaRepository, MesaRepository>();
             services.AddScoped<IReservaRepository, ReservaRepository>();
             services.AddScoped<IProductoRepository, ProductoRepository>();
+            services.AddScoped<IEmpleadoRepository, EmpleadoRepository>();
+            services.AddScoped<IPuestoRepository, PuestoRepository>();
+            services.AddScoped<ITurnoRepository, TurnoRepository>();
+            services.AddScoped<IAsistenciaRepository, AsistenciaRepository>();
 
             return services;
         }

@@ -20,6 +20,7 @@ namespace DishDash.Infrastructure
             services.AddScoped<IClienteService, ClienteService>();
             services.AddScoped<IMesaService, MesaService>();
             services.AddScoped<IInventarioService, InventarioService>();
+            services.AddScoped<IPersonalService, PersonalService>();
 
             return services;
         }
